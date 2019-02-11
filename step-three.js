@@ -3,7 +3,6 @@
 
 
 var https = require('https');
-var request = require('request');
 
 function getAndPrintHTML (options) {
   https.get(options, function (response){
